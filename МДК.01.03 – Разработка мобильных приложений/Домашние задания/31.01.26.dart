@@ -29,8 +29,6 @@ class MyApp extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-
-                // ===== НОВАЯ СТРОКА С КАТЕГОРИЕЙ И ИКОНКОЙ =====
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: const [
@@ -51,7 +49,6 @@ class MyApp extends StatelessWidget {
                 ),
 
                 const SizedBox(height: 15),
-                // ===== СТАРОЕ СОДЕРЖИМОЕ НИЖЕ БЕЗ ИЗМЕНЕНИЙ =====
 
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
